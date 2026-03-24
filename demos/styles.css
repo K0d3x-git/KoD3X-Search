@@ -51,7 +51,7 @@ body {
 main {
 	padding: 2rem;
 	margin: 0 auto;
-	max-width: 1200px;
+	max-width: 1195px;
 }
 
 footer {
@@ -78,6 +78,9 @@ h1 {
 /* SEARCH */
 search {
 	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 900px;
 }
 search::before {
 	content: "🔍";
@@ -124,12 +127,11 @@ search input {
 	margin-bottom: 3rem;
 	display: flex;
 	flex-wrap: wrap;
-	gap: 1rem;
-	justify-content: center;
+	gap: 20px 25px;
 }
 .item {
 	padding: 1rem;
-	width: 350px;
+	width: 360px;
 	border: 1px solid #ddd;
 	border-radius: 8px;
 	transition: all 0.3s ease;
@@ -190,4 +192,16 @@ card-tags {
 	background-color: #f8f9fa;
 	font-size: .7rem;
 	color: #555;
+}
+
+
+/* KoD3X-Search FADE EFFECT */
+.item.kod3x-search-hidden {
+	opacity: 0;
+	transform: scale(0.95);
+	pointer-events: none;
+}
+
+.item.kod3x-search-completely-hidden {
+	display: none;
 }

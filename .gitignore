@@ -19,3 +19,9 @@ config.codekit3
 !.vscode/extensions.json
 !.vscode/*.code-snippets
 !*.code-workspace
+
+# GitIgnore
+.gitignore
+.git/
+.gitmodules
+.gitattributes

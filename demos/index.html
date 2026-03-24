@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>KoD3X-Search Demo | KoD3X</title>
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" href="styles.css">
+	</head>
+
+	<body>
+
+		<main>
+			<h1>KoD3X-Search Demonstration</h1>
+
+			<!-- SEARCH -->
+			<search class="search">
+				<input
+					type="text"
+					placeholder="Search anything..."
+					kod3x-search-input="products"
+				>
+			</search>
+			<p class="search-info">Type anything you want to search : Name, category, tag, price, words...</p>
+			<!-- SEARCH -->
+
+			<!-- NO RESULTS - Hidden: Default -->
+			<div id="no-results">
+				<h3>No item found</h3>
+				<p>Try adjusting or modifying your search criterias</p>
+			</div>
+			<!-- NO RESULTS -->
+
+			<!-- ITEMS -->
+			<div id="items">
+				<div class="item" kod3x-search="products">
+					<card>
+						<h2>Apple iPhone 13</h2>
+						<card-cat class="smart">Smartphones</card-cat>
+						<p>The Apple iPhone 13 revolutionizes the mobile experience with its A15 Bionic chip, 5G connectivity, and enhanced camera system.</p>
+						<p class="card-price">$799</p>
+						<card-tags>
+							<span class="tag">Electronics</span>
+							<span class="tag">Mobile</span>
+							<span class="tag">Apple</span>
+						</card-tags>
+					</card>
+				</div>
+
+				<div class="item" kod3x-search="products">
+					<card>
+						<h2>Samsung Galaxy S21</h2>
+						<card-cat class="smart">Smartphones</card-cat>
+						<p>The Samsung Galaxy S21 combines elegant design and advanced features for a premium smartphone experience.</p>
+						<p class="card-price">$699</p>
+						<card-tags>
+							<span class="tag">Electronics</span>
+							<span class="tag">Mobile</span>
+							<span class="tag">Samsung</span>
+						</card-tags>
+					</card>
+				</div>
+
+				<div class="item" kod3x-search="products">
+					<card>
+						<h2>Sony WH-1000XM4</h2>
+						<card-cat class="audio">Headphones</card-cat>
+						<p>The Sony WH-1000XM4 sets the standard for noise cancellation with exceptional sound quality and premium comfort.</p>
+						<p class="card-price">$349</p>
+						<card-tags>
+							<span class="tag">Electronics</span>
+							<span class="tag">Audio</span>
+							<span class="tag">Sony</span>
+						</card-tags>
+					</card>
+				</div>
+
+				<div class="item" kod3x-search="products">
+					<card>
+						<h2>Dell XPS 13</h2>
+						<card-cat class="laptop">Laptops</card-cat>
+						<p>The Dell XPS 13 redefines portability with high performance in an ultra-compact and elegant chassis.</p>
+						<p class="card-price">$999</p>
+						<card-tags>
+							<span class="tag">Electronics</span>
+							<span class="tag">Computer</span>
+							<span class="tag">Dell</span>
+						</card-tags>
+					</card>
+				</div>
+
+				<div class="item" kod3x-search="products">
+					<card>
+						<h2>Apple MacBook Pro</h2>
+						<card-cat class="laptop">Laptops</card-cat>
+						<p>The Apple MacBook Pro delivers professional power with its iconic design and advanced features for creative professionals.</p>
+						<p class="card-price">$1299</p>
+						<card-tags>
+							<span class="tag">Electronics</span>
+							<span class="tag">Computer</span>
+							<span class="tag">Apple</span>
+						</card-tags>
+					</card>
+				</div>
+
+				<div class="item" kod3x-search="products">
+					<card>
+						<h2>Bose QuietComfort 35 II</h2>
+						<card-cat class="audio">Headphones</card-cat>
+						<p>The Bose QuietComfort 35 II offers unmatched comfort and market-leading noise cancellation for the ultimate listening experience.</p>
+						<p class="card-price">$299</p>
+						<card-tags>
+							<span class="tag">Electronics</span>
+							<span class="tag">Audio</span>
+							<span class="tag">Bose</span>
+						</card-tags>
+					</card>
+				</div>
+
+				<div class="item" kod3x-search="products">
+					<card>
+						<h2>Google Pixel 6</h2>
+						<card-cat class="smart">Smartphones</card-cat>
+						<p>The Google Pixel 6 offers Google's most advanced computational photography in a modern and sleek design.</p>
+						<p class="card-price">$599</p>
+						<card-tags>
+							<span class="tag">Electronics</span>
+							<span class="tag">Mobile</span>
+							<span class="tag">Google</span>
+						</card-tags>
+					</card>
+				</div>
+
+				<div class="item" kod3x-search="products">
+					<card>
+						<h2>HP Spectre x360</h2>
+						<card-cat class="laptop">Laptops</card-cat>
+						<p>The HP Spectre x360 combines versatility and performance in a premium convertible format for ultimate productivity.</p>
+						<p class="card-price">$1099</p>
+						<card-tags>
+							<span class="tag">Electronics</span>
+							<span class="tag">Computer</span>
+							<span class="tag">HP</span>
+						</card-tags>
+					</card>
+				</div>
+
+				<div class="item" kod3x-search="products">
+					<card>
+						<h2>JBL Flip 5</h2>
+						<card-cat class="audio">Speakers</card-cat>
+						<p>The JBL Flip 5 delivers powerful sound in a portable waterproof format, perfect for all your adventures.</p>
+						<p class="card-price">$119</p>
+						<card-tags>
+							<span class="tag">Electronics</span>
+							<span class="tag">Audio</span>
+							<span class="tag">JBL</span>
+						</card-tags>
+					</card>
+				</div>
+			</div>
+			<!-- ITEMS -->
+
+		</main>
+
+		<footer>
+			KoD3X-Search Demo - 2026 | KoD3X &copy;
+		</footer>
+
+		<script src="../js/KoD3X-Search.min.js"></script>
+
+	</body>
+</html>

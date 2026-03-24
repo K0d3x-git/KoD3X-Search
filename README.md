@@ -92,7 +92,7 @@ You can have multiple independent search groups on the same page:
 ### Custom Styling for No Results
 
 ```html
-<div id="no-results" style="display: none;">
+<div id="no-results">
   <h3>No items found</h3>
   <p>Try adjusting or modifying your search criteria</p>
 </div>

@@ -48,7 +48,7 @@ Ou utilisez la version minifiée :
 
 4. Optionnel : Ajoutez un élément pour afficher "Aucun résultat" :
 ```html
-<div id="no-results" style="display: none;">
+<div id="no-results">
   Aucun résultat trouvé
 </div>
 ```

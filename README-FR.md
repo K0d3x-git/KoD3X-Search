@@ -67,7 +67,7 @@ Un exemple d'implémentation est inclus dans le fichier [`demos/index.html`](dem
 - Animations fluides pour masquer/afficher les éléments
 
 Pour lancer l'exemple :
-1. Ouvrez le fichier [`Demos`](https://k0d3x-git.github.io/KoD3X-Search/demos/) dans votre navigateur
+1. Ouvrez le fichier [`Demos`](https://k0d3x-git.github.io/KoD3X-Search/demos/){:target="_blank"} dans votre navigateur
 2. Essayez de taper dans la barre de recherche pour voir le filtrage en temps réel
 3. Recherchez des noms de produits, catégories ou mots-clés (ex: "iPhone", "laptop", "Sony")
 

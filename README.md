@@ -67,7 +67,7 @@ An example implementation is included in the [`demos/index.html`](demos/index.ht
 - Smooth animations for hiding/showing elements
 
 To run the example:
-1. Open the [`Demos`](https://k0d3x-git.github.io/KoD3X-Search/demos/) file in your browser
+1. Open the [`Demos`](https://k0d3x-git.github.io/KoD3X-Search/demos/){:target="_blank"} file in your browser
 2. Try typing in the search box to see real-time filtering
 3. Search for product names, categories, or keywords (e.g., "iPhone", "laptop", "Sony")
 
